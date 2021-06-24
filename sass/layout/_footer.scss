@@ -1,0 +1,36 @@
+.footer {
+   width: 1920px;
+   margin: 0 auto;
+   padding: 50px 0 100px;
+
+   background-repeat: no-repeat;
+   background-position: left 100px, right 100px;
+   background-size: auto, auto, auto;
+   background-image:
+   url(../images/background/bottom-left.svg),
+   url(../images/background/bottom-right.svg);
+   
+}
+
+.footer .container {
+   border-bottom: 1px solid $primary-element-color;
+}
+
+.footer__logo {
+   display: block;
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 37px;
+
+}
+
+.footer__description {
+   width: 526px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 47px;
+
+   text-align: center;
+}
+
