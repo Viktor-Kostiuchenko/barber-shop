@@ -1,0 +1,115 @@
+.service {
+   width: 1920px;
+   margin: 0 auto;
+   padding: 50px 0 250px;
+
+      background-repeat: no-repeat;
+   background-position: bottom left, bottom right;
+   background-size: auto, auto, auto;
+   background-image:
+   url(../images/background/bottom-left.svg),
+   url(../images/background/bottom-right.svg);
+
+}
+
+.service__title {
+   width: 387px;
+   margin: 0 auto;
+   margin-bottom: 83px;
+   
+   
+   font-weight: 700;
+   font-size: 70px;
+   line-height: 1.16;
+   text-align: center;
+
+   color: $title-color;
+
+}
+
+.service__title-accent {
+   color: $accent-color;
+}
+.service__list {
+   @extend %list;
+   display: flex;
+   justify-content: center;
+
+   margin-right: calc(-1 * 50px);
+
+}
+
+.service-list__item {
+   width: 440px;
+   margin-right: 50px;
+   padding: 50px 40px 72px;
+   border-radius: 29px;
+
+   background-color: $list-item-bcg;
+   box-shadow: $list-item-shadow;
+   
+   transition: background-color 200ms linear,
+   box-shadow 200ms linear;
+
+   &:hover,
+   &:focus {
+      background-color: $primary-element-color;
+      box-shadow: 23px 39px 94px $shadow-color
+   }
+
+   &:hover .service-list__description,
+   &:focus .service-list__description,
+   &:hover .service-list__title,
+   &:focus .service-list__title {
+      color: $primary-white-color;
+   }
+}
+
+.service-list__link {
+   @extend %link;
+
+}
+
+.service-list__icon-bcg {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 60px;
+
+   width: 103px;
+   height: 126px;
+
+   border-radius: 13px;
+   background-color: $icon-bcg-color;
+}
+
+.service-list__icon {
+   height: 65px;
+   width: 58px;
+
+}
+
+.service-list__icon--rotated {
+   transform: rotate(315deg);
+}
+
+.service-list__title {
+   margin-bottom: 60px;
+
+   font-size: 45px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;
+
+   color: $title-color;
+
+}
+
+.service-list__description {
+   text-align: center;
+   color: $text-color;
+   opacity: 0.65;
+
+}

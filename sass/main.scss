@@ -1,0 +1,17 @@
+@import "./utils/vars";
+@import "./utils/placeholders";
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+
+@import "./components/logo";
+@import "./components/button";
+@import "./components/social-networks";
+
+@import "./layout/header";
+@import "./layout/home";
+@import "./layout/history";
+@import "./layout/service";
+@import "./layout/gallery";
+@import "./layout/footer";

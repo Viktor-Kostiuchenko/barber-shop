@@ -1,0 +1,46 @@
+.home {
+   width: 1920px;
+   margin: 0 auto;
+   min-height: 820px;
+   padding: 50px 0;
+
+   background-repeat: no-repeat;
+     background-position: right;
+  background-size: contain;
+   background-image: url(../images/background/hero.jpg);
+
+     @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/background/hero@2x.jpg);
+  }
+
+}
+
+
+.home__title {
+   width: 576px;
+   margin-bottom: 28px;
+   
+   font-weight: 700;
+   font-size: 75px;
+   line-height: 1.33;
+   letter-spacing: 0;
+
+   color: $title-color;
+
+}
+
+.home__title-accent {
+   color: $accent-color;
+
+}
+
+.home__description {
+   width: 526px;
+   padding-bottom: 97px;
+
+}
+
+
+

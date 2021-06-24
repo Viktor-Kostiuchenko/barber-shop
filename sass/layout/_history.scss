@@ -1,0 +1,59 @@
+.history {
+   width: 1920px;
+   margin: 0 auto;
+   padding: 250px 0;
+
+   background-repeat: no-repeat;
+   background-position: top left, top right, 88px;
+   background-size: auto, auto, auto;
+   background-image:
+   url(../images/background/top-left.svg),
+   url(../images/background/top-right.svg),
+   url(../images/background/history.jpg);
+
+     @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/background/history@2x.jpg);
+  }
+
+  
+
+}
+
+.history__wrapper {
+      width: 576px;
+      margin-left: auto;
+}
+
+.history__title {
+
+   margin-bottom: 80px;
+   font-size: 70px;
+
+   color: $title-color;
+
+}
+
+.history__title-accent {
+   color: $accent-color;
+
+}
+
+.history__description {
+   width: 526px;
+
+
+   padding-bottom: 48px;
+
+   &--positioned {
+      padding-bottom: 108px;
+   }
+
+}
+
+.wrapper {
+   width: 400px;
+   margin-left: auto;
+   margin-right: 120px;
+}
