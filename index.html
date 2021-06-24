@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Barber Shop</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+   <link rel="stylesheet" href="./css/main.min.css">
+   <link rel="shortcut icon" href="./images/icons/favicon.ico">
+
+
+</head>
+
+<body>
+   <header class="header">
+      <div class="container header__container">
+         <a class="logo" href="">
+            <span class="logo__text">arber</span>
+         </a>
+         <nav class="header__navigation">
+            <ul class="site-nav">
+               <li class="site-nav__item"><a class="site-nav__link" href="#home">Home</a>
+               </li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#history">History</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#service">Service</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#gallery">Gallery</a></li>
+            </ul>
+         </nav>
+         <ul class="profile-nav">
+            <li class="profile-nav__item">
+               <button class="profile-nav__btn">
+                  <svg class="profile-nav__icon" width="37" height="37">
+                     <use href="./images/icons/sprite.svg#profile"></use>
+                  </svg>
+               </button>
+            </li>
+            <li class="profile-nav__item">
+               <button class="profile-nav__btn">
+                  <svg class="profile-nav__icon" width="37" height="37">
+                     <use href="./images/icons/sprite.svg#notification"></use>
+                  </svg>
+               </button>
+            </li>
+            <li class="profile-nav__item"><button class="button" type="button">Appointment</button></li>
+         </ul>
+      </div>
+   </header>
+
+   <main>
+      <section id="home" class="home">
+         <div class="container">
+            <h1 class="home__title"><span class="home__title-accent">Hairstyle</span> Reflects The Personality Inside
+               You</h1>
+            <p class="home__description">It is a long established fact that a reader will be distracted by the
+               readable content of a page w
+               hen looking at.</p>
+            <button class="button" type="button">Get Started</button>
+         </div>
+      </section>
+
+      <section id="history" class="history">
+         <div class="container">
+
+            <div class="history__wrapper">
+               <h2 class="history__title">Our <span class="history__title-accent">History</span></h2>
+               <p class="history__description">It is a long established fact that a reader will be distracted by the
+                  readable content of a page w
+                  hen looking at.</p>
+               <p class="history__description history__description--positioned">It is a long established fact that a
+                  reader will be distracted by the
+                  readable content of a page w
+                  hen looking at.</p>
+               <button class="button" type="button">Learn more</button>
+            </div>
+
+         </div>
+      </section>
+
+      <section id="service" class="service">
+         <div class="container">
+            <h1 class="service__title">Services We <span class="service__title-accent">Provide</span></h1>
+            <ul class="service__list">
+               <li class="service-list__item">
+                  <a class="service-list__link" href="">
+                     <div class="service-list__icon-bcg">
+                        <svg class="service-list__icon" width="58" height="65">
+                           <use href="./images/icons/sprite.svg#scissors-serv"></use>
+                        </svg>
+                     </div>
+                     <h3 class="service-list__title">Hair Cut</h3>
+                     <p class="service-list__description">long established fact that a reacted by the readable content
+                        of
+                        hen looking at.</p>
+                  </a>
+               </li>
+               <li class="service-list__item">
+                  <a class="service-list__link" href="">
+                     <div class="service-list__icon-bcg">
+                        <svg class="service-list__icon service-list__icon--rotated" width="68" height="68">
+                           <use href="./images/icons/sprite.svg#razor1"></use>
+                        </svg>
+                     </div>
+                     <h3 class="service-list__title">Beard Cut</h3>
+                     <p class="service-list__description">long established fact that a reacted by the readable content
+                        of
+                        hen looking at.</p>
+                  </a>
+               </li>
+               <li class="service-list__item">
+                  <a class="service-list__link" href="">
+                     <div class="service-list__icon-bcg">
+                        <svg class="service-list__icon" width="66" height="66">
+                           <use href="./images/icons/sprite.svg#cleanser"></use>
+                        </svg>
+                     </div>
+                     <h3 class="service-list__title">Facial Pack</h3>
+                     <p class="service-list__description">long established fact that a reacted by the readable content
+                        of
+                        hen looking at.</p>
+                  </a>
+               </li>
+            </ul>
+
+
+         </div>
+
+      </section>
+
+      <section id="gallery" class="gallery">
+         <div class="container">
+            <h2 class="gallery__title">Our <span class="gallery__title-accent">Gallery</span></h2>
+            <ul class="gallery__list">
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery1.webp 1x,
+                     ./images/content/gallery1@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery1.jpg 1px,
+                     ./images/content/gallery1@2xjpg 2x">
+
+                     <img src="#" alt="мастер стрижет бороду" width="434" height="434">
+                  </picture>
+               </li>
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery2.webp 1x,
+                     ./images/content/gallery2@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery2.jpg 1px,
+                     ./images/content/gallery2@2xjpg 2x">
+
+                     <img src="#" alt="мастер стрижет волосы" width="434" height="434">
+                  </picture>
+               </li>
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery3.webp 1x,
+                     ./images/content/gallery3@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery3.jpg 1px,
+                     ./images/content/gallery3@2xjpg 2x">
+
+                     <img src="#" alt="мастер стрижет затылок" width="434" height="434">
+                  </picture>
+               </li>
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery4.webp 1x,
+                     ./images/content/gallery4@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery4.jpg 1px,
+                     ./images/content/gallery4@2xjpg 2x">
+
+                     <img src="#" alt="мастер стрижет бороду" width="434" height="434">
+                  </picture>
+               </li>
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery5.webp 1x,
+                     ./images/content/gallery5@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery5.jpg 1px,
+                     ./images/content/gallery5@2xjpg 2x">
+
+                     <img src="#" alt="мастер бреет бороду" width="434" height="434">
+                  </picture>
+               </li>
+               <li class="gallery__item">
+                  <div class="gallery__overlay"></div>
+                  <picture>
+                     <source srcset="
+                     ./images/content/gallery6.webp 1x,
+                     ./images/content/gallery6@2x.webp 2x" type="image/webp">
+                     <source srcset="
+                     ./images/content/gallery6.jpg 1px,
+                     ./images/content/gallery6@2xjpg 2x">
+
+                     <img src="#" alt="мастер делает кант бороды" width="434" height="434">
+                  </picture>
+               </li>
+            </ul>
+            <button class="button button--positioned" type="button">View All</button>
+         </div>
+      </section>
+
+   </main>
+
+   <footer class="footer">
+      <div class="container">
+         <a class="logo footer__logo" href="">
+            <span class="logo__text logo__text--increased">arber</span>
+         </a>
+         <p class="footer__description">
+            It is a long established fact that a reader will be distracted by the readable</p>
+         <ul class="social-list">
+            <li class="social-list__item">
+               <a class="social-list__link" href="#" aria-label="go to facebook">
+                  <svg class="social-list__icon" width="19" height="38">
+                     <use href="./images/icons/sprite.svg#facebook"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="social-list__item">
+               <a class="social-list__link" href="#" aria-label="go to twitter">
+                  <svg class="social-list__icon" width="32" height="26">
+                     <use href="./images/icons/sprite.svg#twitter"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="social-list__item">
+               <a class="social-list__link" href="#" aria-label="go to google plus">
+                  <svg class="social-list__icon" width="28" height="29">
+                     <use href="./images/icons/sprite.svg#google"></use>
+                  </svg>
+               </a>
+            </li>
+         </ul>
+
+
+
+      </div>
+
+   </footer>
+
+
+
+
+
+
+</body>
+
+</html>
