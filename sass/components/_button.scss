@@ -1,0 +1,21 @@
+.button {
+   width: 188px;
+   padding: 23px 33px;
+
+   border: none;
+   border-radius: 20px;
+
+   font-size: 20px;
+   font-weight: 700;
+   color: $primary-white-color;
+   background-color: $primary-element-color;
+
+   cursor: pointer;
+
+   transition: box-shadow 200ms linear;
+   
+   &:hover,
+   &:focus {
+      box-shadow: 0 17px 50px $shadow-color;
+   }
+}

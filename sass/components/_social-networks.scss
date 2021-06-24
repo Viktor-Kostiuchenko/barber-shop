@@ -1,0 +1,35 @@
+.social-list {
+   @extend %list;
+   display: flex;
+   justify-content: center;
+   margin-right: calc(-1 * 25px);
+   padding-bottom: 47px;
+}
+
+.social-list__item {
+   margin-right: 25px;
+}
+
+.social-list__link {
+   @extend %link;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 67px;
+   height: 67px;
+   border-radius: 50%;
+
+   background-color: $secondary-element-color;
+
+   transition: background-color 200ms linear ;
+
+   &:hover, 
+   &:focus {
+       background-color: $primary-element-color;
+   }
+}
+
+.social-list__icon {
+   fill: $primary-white-color;
+}
