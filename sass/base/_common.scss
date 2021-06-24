@@ -1,0 +1,32 @@
+body {
+  background-color: $primary-white-color;
+  color: $text-color;
+  font-family: $primary-font;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
