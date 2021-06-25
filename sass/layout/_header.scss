@@ -1,4 +1,6 @@
 .header {
+  width: 1920px;
+  margin: 0 auto;
 
   padding-bottom: 30px;
   background-color: $primary-white-color;
@@ -30,23 +32,21 @@
 .site-nav__link {
   @extend %link;
   padding: 67px 14px 8px 14px;
-    border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 
   color: $title-color;
   font-weight: 500;
   line-height: 1.33;
 
-  transition: color 200ms linear,
-  background-color 200ms linear;
+  transition: color 200ms linear, background-color 200ms linear;
 
   &:hover,
   &:focus {
-  color: $primary-white-color;
-  background-color: $nav-bcg-color;
+    color: $primary-white-color;
+    background-color: $nav-bcg-color;
   }
 }
-
 
 .profile-nav {
   @extend %list;
@@ -56,21 +56,20 @@
 }
 
 .profile-nav__item {
-    &:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 72px;
   }
-
 }
 
 .profile-nav__btn {
   padding: 0;
   width: 42px;
   height: 42px;
-  
+
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  
+
   background-color: transparent;
   transition: background-color 200ms linear;
 
@@ -78,10 +77,4 @@
   &:focus {
     background-color: $shadow-color;
   }
-
 }
-
-.profile-nav__icon {
-
-}
-
